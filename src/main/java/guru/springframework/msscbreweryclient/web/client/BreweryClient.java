@@ -27,4 +27,9 @@ public class BreweryClient {
     public BreweryClient(RestTemplateBuilder restTemplateBuilder){
         this.restTemplate = restTemplateBuilder.build();
     }
+
+    public void setApihost(String apihost){
+        this.apihost = apihost;
+
+    }
 }
